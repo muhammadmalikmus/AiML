@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "prompt-engineer"
+version = "0.2.0"
+description = "ai prompt engineer"
+authors = ["Eddie Cohen <eddiehcohen@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+greenlet = "^2.0.2"
+pexpect = "^4.8.0"
+tiktoken = "^0.3.3"
+langchain = "^0.0.151"
+openai = "^0.27.5"
+streamlit = "^1.22.0"
+pandas = "^2.0.1"
+promptlayer = "^0.1.80"
+
+[tool.poetry.group.dev.dependencies]
+watchdog = "^3.0.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
